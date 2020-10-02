@@ -1361,18 +1361,18 @@ dependencies = [
 
 [[package]]
 name = "pin-project"
-version = "0.4.22"
+version = "0.4.25"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "12e3a6cdbfe94a5e4572812a0201f8c0ed98c1c452c7b8563ce2276988ef9c17"
+checksum = "2b9e280448854bd91559252582173b3bd1f8e094a0e644791c0628ca9b1f144f"
 dependencies = [
  "pin-project-internal",
 ]
 
 [[package]]
 name = "pin-project-internal"
-version = "0.4.22"
+version = "0.4.25"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6a0ffd45cf79d88737d7cc85bfd5d2894bee1139b356e616fe85dc389c61aaf7"
+checksum = "c8c8b352676bc6a4c3d71970560b913cea444a7a921cc2e2d920225e4b91edaa"
 dependencies = [
  "proc-macro2 1.0.19",
  "quote 1.0.7",
@@ -2592,7 +2592,7 @@ dependencies = [
 
 [[package]]
 name = "zebra-chain"
-version = "0.1.0"
+version = "3.0.0-alpha.0"
 dependencies = [
  "bech32",
  "blake2b_simd",
@@ -2624,11 +2624,11 @@ dependencies = [
 
 [[package]]
 name = "zebra-client"
-version = "0.1.0"
+version = "3.0.0-alpha.0"
 
 [[package]]
 name = "zebra-consensus"
-version = "0.1.0"
+version = "3.0.0-alpha.0"
 dependencies = [
  "chrono",
  "color-eyre",
@@ -2652,7 +2652,7 @@ dependencies = [
 
 [[package]]
 name = "zebra-network"
-version = "0.1.0"
+version = "3.0.0-alpha.0"
 dependencies = [
  "bitflags",
  "byteorder",
@@ -2682,15 +2682,15 @@ dependencies = [
 
 [[package]]
 name = "zebra-rpc"
-version = "0.1.0"
+version = "3.0.0-alpha.0"
 
 [[package]]
 name = "zebra-script"
-version = "0.1.0"
+version = "3.0.0-alpha.0"
 
 [[package]]
 name = "zebra-state"
-version = "0.1.0"
+version = "3.0.0-alpha.0"
 dependencies = [
  "color-eyre",
  "dirs",
@@ -2712,7 +2712,7 @@ dependencies = [
 
 [[package]]
 name = "zebra-test"
-version = "0.1.0"
+version = "3.0.0-alpha.0"
 dependencies = [
  "color-eyre",
  "futures",
@@ -2727,7 +2727,7 @@ dependencies = [
 
 [[package]]
 name = "zebra-utils"
-version = "0.1.0"
+version = "3.0.0-alpha.0"
 dependencies = [
  "abscissa_core",
  "color-eyre",
@@ -2742,7 +2742,7 @@ dependencies = [
 
 [[package]]
 name = "zebrad"
-version = "0.1.0"
+version = "3.0.0-alpha.0"
 dependencies = [
  "abscissa_core",
  "chrono",
